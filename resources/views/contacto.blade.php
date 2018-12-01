@@ -23,16 +23,16 @@
           </div>
           <div class="col-md-4 mb-3">
             <label for="nombre">Correo</label>
-            <input type="text" class="form-control" id="nombre" placeholder="" value="" required>
+            <input type="email" class="form-control" id="correo" placeholder="" value="" required>
             <div class="invalid-feedback">
-              Se necesita un nombre válido.
+              Se necesita un correo válido.
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <label for="nombre">Teléfono</label>
-            <input type="text" class="form-control" id="nombre" placeholder="" value="" required>
+            <input type="text" class="form-control" id="telefono" placeholder="" value="" required>
             <div class="invalid-feedback">
-              Se necesita un nombre válido.
+              Se necesita un teléfono válido.
             </div>
           </div>
         </div>
