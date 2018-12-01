@@ -34,7 +34,7 @@
           <div class="col-md-12">
             <h1 >Zix Ingeniería</h1>
             <br>
-            <p class="lead"><strong>Zix Ingeniería</strong> es una empresa de consultoría especializada en proyectos de estructuras, dedicados al cálculo, diseño, planos y redacción en las áreas industrial, comercial, de edificación, infraestructura, mecánicos y R+D</p><p class="lead"><strong>Zix Ingeniería</strong> ofrece soluciones en diseño de estructuras de concreto, acero, composites y mecánicas en cualquier fase del proyecto.</p>
+            <p class="lead"><strong>Zix Ingeniería</strong> es una empresa de consultoría especializada en proyectos de estructuras, dedicados al cálculo, diseño, planos y redacción en las áreas industrial, comercial, de edificación, infraestructura, mecánicos y R+D</p><p class="lead"><strong>Zix Ingeniería</strong> ofrece soluciones en diseño de estructuras de concreto, acero, madera, composites y mecánicas en cualquier fase del proyecto.</p>
           </div>
           <!-- <div class="col-md-5">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
