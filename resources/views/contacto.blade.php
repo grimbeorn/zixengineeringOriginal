@@ -43,7 +43,12 @@
             Se necesita un mensaje válido.
           </div>
         </div>
-        <button class="btn btn-primary btn-lg btn-block" type="submit">Contactar</button>
+
+        <form method="post" action="{{ url('/contact') }}">
+          {{ csrf_field() }}
+          <button class="btn btn-primary btn-lg btn-block" type="submit">Contactar</button>
+        </form>
+
       </form>
     </div>
   </div>

@@ -30,3 +30,5 @@ Route::get('/presupuestos', function () {
 Route::get('/contacto', function () {
     return view('contacto');
 });
+
+Route::get('/contact', 'ContactController@store');
