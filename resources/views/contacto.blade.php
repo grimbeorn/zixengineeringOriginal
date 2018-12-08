@@ -44,7 +44,7 @@
           </div>
         </div>
 
-        <form method="post" action="{{ url('/contact') }}">
+        <form method="post" action="{{ url('/contact2') }}">
           {{ csrf_field() }}
           <button class="btn btn-primary btn-lg btn-block" type="submit">Contactar</button>
         </form>
