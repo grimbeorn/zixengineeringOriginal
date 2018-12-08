@@ -22,14 +22,14 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <label for="nombre">Correo</label>
+            <label for="correo">Correo</label>
             <input type="email" class="form-control" id="correo" placeholder="" value="" required>
             <div class="invalid-feedback">
               Se necesita un correo válido.
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <label for="nombre">Teléfono</label>
+            <label for="telefono">Teléfono</label>
             <input type="text" class="form-control" id="telefono" placeholder="" value="" required>
             <div class="invalid-feedback">
               Se necesita un teléfono válido.
@@ -37,7 +37,7 @@
           </div>
         </div>
         <div class="mb-3">
-          <label for="email">Mensaje <span class="text-muted"></span></label>
+          <label for="mensaje">Mensaje <span class="text-muted"></span></label>
           <textarea rows="5" cols="50" type="text" class="form-control" id="mensaje" placeholder="escriba aquí su mensaje ..."></textarea>
           <div class="invalid-feedback">
             Se necesita un mensaje válido.

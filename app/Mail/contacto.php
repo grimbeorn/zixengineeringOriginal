@@ -7,7 +7,7 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-class NewContact extends Mailable
+class contacto extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -28,6 +28,6 @@ class NewContact extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.contact');
+        return $this->view('emails.contacto');
     }
 }
