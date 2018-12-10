@@ -1,11 +1,29 @@
 <html>
-<head>
-	<title>Contacto</title>
-</head>
-<body>
-	<p>Su correo se ha enviado satisfactoriamente!</p>
-	<p>En un lapso no mayor a 24 horas nos pondremos en contacto con usted.</p>
-	<p>Gracias!</p>
 
+<head>
+	<title> Nuevo Contacto</title>
+</head>
+
+<body>
+	<p>Has recibido un nuevo e-mail, estos son los datos:</p>
+	<ul>
+		<li>
+			<strong>Nombre: </strong>
+			{{ $n }}
+		</li>
+		<li>
+			<strong>Correo: </strong>
+			{{ $c }}
+		</li>
+		<li>
+			<strong>Teléfono: </strong>
+			{{ $t }}
+		</li>
+		<li>
+			<strong>Mensaje: </strong>
+			{{ $m }}
+		</li>
+	</ul>
 </body>
+
 </html>
