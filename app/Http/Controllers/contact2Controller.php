@@ -19,7 +19,7 @@ class contact2Controller extends Controller
     	$m = $request->input('mensaje');
 
     	// Mail::to('hernandomtz@gmail.com')->send(new NewContact2($nombre, $telefono, $correo, $mensaje));
-    	Mail::to('hernandomtz@gmail.com')->send(new NewContact2($n));
+    	Mail::to('hernandomtz@gmail.com')->send(new NewContact2($n, $c, $t, $m));
 
     	$notification = 'pedido registrado!!';
     	return back()->with(compact('notification'));
