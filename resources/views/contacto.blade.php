@@ -44,7 +44,7 @@
             Se necesita un mensaje válido.
           </div>
         </div>
-          <button class="btn btn-primary btn-lg btn-block">Contactarr</button>
+          <button class="btn btn-primary btn-lg btn-block">Contactar</button>
       </form>
     </div>
   </div>
