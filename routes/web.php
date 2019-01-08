@@ -32,3 +32,5 @@ Route::get('/contacto', function () {
 });
 
 Route::post('/contact2', 'contact2Controller@send');
+
+Route::post('/presupuestos2', 'presupuestos2Controller@send');

@@ -2,16 +2,30 @@
 
 @section('content')
 
+@if (session('notification'))
+    <div class="alert alert-success">
+      {{ session('notification') }}
+    </div>
+  @endif
+
 <div class="container">
   <div class="py-5 text-center">
     <h2 class="featurette-heading">Contacto</h2>
-    <span class="text-muted">Por favor llene los espacios y le contactaremos en menos de 24 horas.</span>
+    <p>
+      México : + 52 55 5374 2992, proyectos@barrafrancamexico.com<br>
+      España : + 34 65 5715 99, presupuestos@zixengineering.com
+    </p>
+    <!-- <span class="text-muted">Por favor llene los espacios y le contactaremos en menos de 24 horas.</span> -->
 
   </div>
 
   <div class="row">
     <div class="col-md-12 order-md-1">
+      <h6><span class="text-muted">Por favor llene los espacios y le contactaremos en menos de 24 horas.</span></h6>
+      <br>
       <h4 class="mb-3">Datos de Contacto</h4>
+      
+
       <form class="needs-validation" method="post" action="{{ url('/contact2') }}" novalidate>
         {{ csrf_field() }}
         <div class="row">
@@ -46,6 +60,8 @@
         </div>
           <button class="btn btn-primary btn-lg btn-block">Contactar</button>
       </form>
+
+
     </div>
   </div>
 

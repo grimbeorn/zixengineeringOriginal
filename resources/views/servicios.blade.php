@@ -10,10 +10,9 @@
     <hr class="featurette-divider">
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">Reducción de Costos<span class="text-muted"></span></h2>
-        <p class="lead">En <strong>zIX Ingeniería</strong> estamos convencidos que más del 80% de las estructuras pueden optimizarse en la cantidad de materiales empleados y los tiempos de ejecución. Es por esto que si se tiene un cálculo previo de cualquier estructura, en la que se intuye que se puede reducir la cantidad de material empleado, tenemos la
-                        modalidad de negocio: “si no reducimos material, no pagas". Esto significa que solamente te cobraremos si hay un ahorro. Es decir, nos damos a la tarea de revisar y la estructura, entender la necesidad del cliente y proponer un recálculo -siempre del lado de la seguridad estructural- en el cual se garantiza que habrá reducción de costos.
-                        De esta forma puedes estar seguro que lo invertido en este recálculo impactará en ahorros para el proyecto.</p>
+        <h2 class="featurette-heading">Reducción de Costos<span class="text-muted"></span></h2><br>
+        <p class="lead">En <strong>zIX Ingeniería</strong> estamos centrados en buscar la eficiencia y mejor funcionamiento de la estructura, interactuando con las necesidades de cada proyecto desde la planeación, diseño estructural y ejecución.
+                        Para nosotros, la optimización de costos y tiempos es una prioridad que debe acompañar al diseño desde sus fases iniciales.</p>
       </div>
       <div class="col-md-5">
         <img class="featurette-image img-fluid mx-auto" src="{{ asset('imgs/01-warehouse.jpg') }}" alt="Generic placeholder image">
@@ -24,11 +23,12 @@
     <hr class="featurette-divider">
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Servicio Personalizado a Arquitectos<span class="text-muted"></span></h2>
-        <p class="lead">En <strong>zIX Ingeniería</strong> sabemos que todo proyecto comienza con una idea. Nuestra labor, es acompañar al arquitecto para que a partir de esa idea podamos lograr el mejor resultado, alineando el proyecto estructural con el arquiectónico desde su concepción.</p>
+        <h2 class="featurette-heading">Servicio Personalizado a Arquitectos<span class="text-muted"></span></h2><br>
+        <p class="lead">En <strong>zIX Ingeniería</strong> sabemos que el proyecto puede estar condicionado por cuestiones económicas, estéticas, funcionales, operativas, de seguridad y otros factores que necesitan ser coordinados.
+                        Para nosotros, es un ejercicio indispensable acompañar al arquitecto, project manager u otro especialista en ese proceso, más aún, en fase de proyecto para preparar los concursos. En este ejercicio, se pueden brindar certidumbres relativas al proceso constructivo, materiales y otras variables, para lograr seguridad en las decisiones futuras.</p>
       </div>
-      <div class="col-md-5 order-md-1">
-        <img class="featurette-image img-fluid mx-auto" src="{{ asset('imgs/03-warehouse.jpg') }}" alt="Generic placeholder image">
+      <div class="col-md-5 order-md-1 align-bottom">
+        <img class="featurette-image img-fluid mx-auto" src="{{ asset('imgs/arquitectos.jpg') }}" alt="Generic placeholder image">
       </div>
     </div>
 
@@ -36,8 +36,13 @@
     <hr class="featurette-divider">
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">Nuestro Equipo <span class="text-muted"></span></h2>
-        <p class="lead">El equipo de <strong>zIX Ingeniería</strong> está conformado por un grupo de ingenieros y maestros con formación estructural, experiencia y ética profesional. Siempre le atenderemos con la importancia que usted y su proyecto nos merecen. Nos gusta la puntualidad en las entregas, la fácil lectura de memorias y planos, generar vínculos sólidos con nuestros clientes y la satisfacción del trabajo bien hecho.</p>
+        <h2 class="featurette-heading">Nuestro Equipo <span class="text-muted"></span></h2><br>
+        <p class="lead">El equipo de <strong>zIX Ingeniería</strong> está conformado por un grupo de ingenieros y maestros con formación estructural, experiencia y ética profesional. 
+                        Ing. Hernando Martínez, Maestría en Ingeniería Estructural.<br>
+                        Ing. Felipe Martínez, Especializado en Energía.<br>
+                        Arq. Miguel Hernández, Maestría en Estructuras de Edificación.<br>
+                        Ing. Andrés Álvarez, Maestría en Administración de Empresas.<br>
+                        Ing. Diego Martínez, Maestría en Estructuras Aeroespaciales, Maestría en Mecánica Aplicada.</p>
       </div>
       <div class="col-md-5">
         <img class="featurette-image img-fluid mx-auto" src="{{ asset('imgs/11-warehouse.jpg') }}"data-src="holder.js/500x500/auto" alt="Generic placeholder image">

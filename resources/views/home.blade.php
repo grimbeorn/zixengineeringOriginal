@@ -10,13 +10,13 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="first-slide" src="{{ asset('imgs/bg3.jpg') }}" alt="First slide">
+          <img class="first-slide" src="{{ asset('imgs/12-warehouse.jpg') }}" alt="First slide">
         </div>
         <div class="carousel-item">
-          <img class="second-slide" src="{{ asset('imgs/bg7.jpg') }}" alt="Second slide">
+          <img class="second-slide" src="{{ asset('imgs/naveIndustrial001.jpg') }}" alt="Second slide">
         </div>
         <div class="carousel-item">
-          <img class="third-slide" src="{{ asset('imgs/profile_city.jpg') }}" alt="Third slide">
+          <img class="third-slide" src="{{ asset('imgs/casaSma2.jpg') }}" alt="Third slide">
         </div>
       </div>
       <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -34,7 +34,7 @@
           <div class="col-md-12">
             <h1 >Zix Ingeniería</h1>
             <br>
-            <p class="lead"><strong>Zix Ingeniería</strong> es una empresa de consultoría especializada en proyectos de estructuras, dedicados al cálculo, diseño, planos y redacción en las áreas industrial, comercial, de edificación, infraestructura, mecánicos y R+D</p><p class="lead"><strong>Zix Ingeniería</strong> ofrece soluciones en diseño de estructuras de concreto, acero, madera, composites y mecánicas en cualquier fase del proyecto.</p>
+            <p class="lead"><strong>Zix Ingeniería</strong> es una empresa de consultoría especializada en proyectos de estructuras.  Nos dedicamos al cálculo, diseño, planos y redacción de informes en las áreas de edificación, industrial, comercial, infraestructura, mecánica y R+D.</p><p class="lead"><strong>Zix Ingeniería</strong> ofrece soluciones en diseño de estructuras de concreto (hormigón), acero, madera, composites y mecánicas en cualquier fase del proyecto.</p>
           </div>
           <!-- <div class="col-md-5">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">

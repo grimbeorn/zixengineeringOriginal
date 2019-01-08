@@ -18,8 +18,8 @@ class NewContact2 extends Mailable
     use Queueable, SerializesModels;
 
     public $n;
-    public $t;
     public $c;
+    public $t;
     public $m;
 
     /**
@@ -27,11 +27,11 @@ class NewContact2 extends Mailable
      *
      * @return void
      */
-    public function __construct($n, $t, $c, $m)
+    public function __construct($n, $c, $t, $m)
     {
         $this->n = $n;
-        $this->t = $t;
         $this->c = $c;
+        $this->t = $t;
         $this->m = $m;
     }
 
